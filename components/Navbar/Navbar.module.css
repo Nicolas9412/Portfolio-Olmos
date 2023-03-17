@@ -1,0 +1,51 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.7s;
+  padding: 30px 20px;
+  z-index: 10;
+}
+.abajo {
+  background: #fff;
+  padding: 15px 20px;
+}
+.abajo .logo,
+.abajo .item {
+  color: #000;
+}
+
+.logo {
+  font-size: 2em;
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.7s;
+  letter-spacing: 2px;
+  transition: 1.5s;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.item {
+  color: #fff;
+  position: relative;
+  font-family: Helvetica;
+  margin: 0 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  transition: 0.7s;
+}
