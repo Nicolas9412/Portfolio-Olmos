@@ -1,0 +1,22 @@
+.span {
+  display: block;
+  font-family: monospace;
+  font-size: 4em;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 22ch;
+  animation: typing 2s steps(22), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border: transparent;
+  }
+}

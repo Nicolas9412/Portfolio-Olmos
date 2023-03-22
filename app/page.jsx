@@ -1,10 +1,20 @@
 import React from "react";
 import styles from "./Home.module.css";
+import Image from "next/image";
+import { Presentation } from "../components";
 
 const Page = () => {
   return (
     <>
-      <section className={styles.zona1}></section>
+      <section className={styles.zona1}>
+        <Presentation />
+        <Image
+          className={styles.profilePicture}
+          width={328}
+          height={418}
+          src={"/foto-cv.jpg"}
+        />
+      </section>
       <section>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, fugit
         earum voluptatum magni commodi debitis aspernatur sequi magnam nulla
