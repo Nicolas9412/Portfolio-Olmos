@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from "../components/Navbar/Navbar";
 import "../styles/globals.css";
+import { lato } from "../app/fonts";
 
 export default function RootLayout({
   children,
@@ -13,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={lato.className}>
         <Navbar></Navbar>
         {children}
       </body>

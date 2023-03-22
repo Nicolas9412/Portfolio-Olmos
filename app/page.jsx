@@ -7,13 +7,15 @@ const Page = () => {
   return (
     <>
       <section className={styles.zona1}>
-        <Presentation />
-        <Image
-          className={styles.profilePicture}
-          width={328}
-          height={418}
-          src={"/foto-cv.jpg"}
-        />
+        <section className={styles.zona2}>
+          <Presentation />
+          <Image
+            className={styles.profilePicture}
+            width={328}
+            height={418}
+            src={"/foto-cv.jpg"}
+          />
+        </section>
       </section>
       <section>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, fugit

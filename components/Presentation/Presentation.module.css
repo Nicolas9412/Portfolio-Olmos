@@ -1,12 +1,63 @@
+.container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.etiqueta {
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: #bb012f;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+
 .span {
   display: block;
   font-family: monospace;
   font-size: 4em;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 22ch;
+  width: 23ch;
   animation: typing 2s steps(22), blink 0.5s infinite step-end alternate;
   overflow: hidden;
+}
+.name {
+  color: #01bb8d;
+}
+
+.description {
+  width: 600px;
+  font-size: 1.5em;
+  color: #9e9c9c;
+  margin-top: 30px;
+  margin-left: 15px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.buttonpri {
+  width: fit-content;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 30px;
+  background-color: #3963ff;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.buttonsec {
+  width: fit-content;
+  font-size: 2em;
+  font-weight: 700;
+  color: #3d3d3d;
+  margin-top: 30px;
+  margin-left: 15px;
 }
 
 @keyframes typing {

@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import { useRef } from "react";
+import { gorditas } from "../../app/fonts";
 
 function Navbar() {
   const header = useRef();
@@ -14,8 +15,8 @@ function Navbar() {
 
   return (
     <header ref={header} className={styles.header}>
-      <Link href={"#"} className={styles.logo}>
-        Nicolás Olmos
+      <Link href={"#"} className={`${styles.logo} ${gorditas.className}`}>
+        Nicolás
       </Link>
       <nav className={styles.nav}>
         <ul className={styles.ul}>
