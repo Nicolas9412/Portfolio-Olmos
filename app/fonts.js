@@ -1,7 +1,7 @@
-import { Gorditas, Lato } from "@next/font/google";
+import { Monoton, Lato } from "@next/font/google";
 
-export const gorditas = Gorditas({
-  weight: ["400", "700"],
+export const monoton = Monoton({
+  weight: ["400"],
   subsets: ["latin"],
 });
 

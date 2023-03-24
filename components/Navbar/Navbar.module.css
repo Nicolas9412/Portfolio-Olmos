@@ -1,31 +1,35 @@
 .header {
+  background-color: #e3e3e3;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   transition: 0.7s;
-  padding: 30px 20px;
+  padding: 15px 10%;
   z-index: 10;
 }
 .abajo {
   background: #fff;
-  padding: 15px 20px;
-}
-.abajo .logo,
-.abajo .item {
-  color: #000;
+  padding: 5px 10%;
+  -webkit-box-shadow: 2px 2px 15px -4px #ff3c78;
+  -moz-box-shadow: 2px 2px 15px -4px #ff3c78;
+  box-shadow: 2px 2px 15px -4px #ff3c78;
 }
 
 .logo {
   font-size: 3em;
   position: relative;
-  color: #01bb8d;
-  font-weight: bold;
   transition: 0.7s;
   letter-spacing: 2px;
   transition: 1.5s;
+  color: #ff3c78;
+}
+.logoDecorator {
+  font-family: none;
+  color: #ff3c78;
+  font-size: 2.5em;
 }
 
 .nav {
@@ -33,19 +37,107 @@
   justify-content: center;
   align-items: center;
 }
-.ul {
+.links {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
+  position: absolute;
+  top: -700px;
+  left: -2000px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.activeHeader {
+  background-color: transparent;
+  height: 100vh;
+}
+
+.active {
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.active .item {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 60px;
 }
 
 .item {
-  color: #fff;
+  color: #000;
   position: relative;
-  font-family: Helvetica;
   margin: 0 15px;
   letter-spacing: 2px;
   font-weight: 600;
   transition: 0.7s;
+  padding: 0 10px;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.item:hover {
+  color: #000;
+}
+
+.item:hover::after {
+  width: 100%;
+}
+
+.burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burgerActive {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 20px 10%;
+  }
+  .logo {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 995px) {
+  .item:hover {
+    color: #fff;
+  }
+}
+
+@media (min-width: 996px) {
+  .burger {
+    display: none;
+  }
+  .links {
+    position: initial;
+    margin: 0;
+  }
+  .item {
+    display: inline;
+  }
 }

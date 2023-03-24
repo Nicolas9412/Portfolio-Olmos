@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Home.module.css";
-import Image from "next/image";
-import { Presentation } from "../components";
+
+import { Presentation, PresentationImage } from "../components";
 
 const Page = () => {
   return (
@@ -9,12 +9,7 @@ const Page = () => {
       <section className={styles.zona1}>
         <section className={styles.zona2}>
           <Presentation />
-          <Image
-            className={styles.profilePicture}
-            width={328}
-            height={418}
-            src={"/foto-cv.jpg"}
-          />
+          <PresentationImage />
         </section>
       </section>
       <section>
