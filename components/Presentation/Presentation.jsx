@@ -4,17 +4,17 @@ import styles from "./Presentation.module.css";
 const Presentation = () => {
   return (
     <div className={styles.container}>
-      <span className={styles.etiqueta}>Web Developer</span>
-      <span className={styles.span}>
+      <p className={styles.etiqueta}>Web Developer</p>
+      <p className={styles.p}>
         Hola! Soy
         <b className={styles.name}> Nicolás Olmos</b>
-      </span>
-      <span className={styles.description}>
+      </p>
+      <p className={styles.description}>
         Me dedico a realizar <b>aplicaciones web</b> para cubrir la necesidad
         que se te ocurra!
-      </span>
-      <span className={styles.buttonsec}>→ Mirá mis proyectos</span>
-      <span className={styles.buttonpri}>Contáctame</span>
+      </p>
+      <p className={styles.buttonsec}>→ Mirá mis proyectos</p>
+      <p className={styles.buttonpri}>Contáctame</p>
     </div>
   );
 };

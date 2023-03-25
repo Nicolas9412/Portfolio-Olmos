@@ -1,5 +1,4 @@
 .header {
-  background-color: #e3e3e3;
   position: fixed;
   top: 0;
   left: 0;
@@ -9,6 +8,7 @@
   transition: 0.7s;
   padding: 15px 10%;
   z-index: 10;
+  background-color: transparent;
 }
 .abajo {
   background: #fff;

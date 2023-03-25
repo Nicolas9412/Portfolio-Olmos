@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const PresentationImage = () => {
   return (
-    <div className={styles.circle}>
+    <>
       <Image
         alt={"foto de perfil"}
         className={styles.profilePicture}
@@ -13,7 +13,7 @@ const PresentationImage = () => {
         height={418}
         src={"/foto-cv.jpg"}
       />
-    </div>
+    </>
   );
 };
 
