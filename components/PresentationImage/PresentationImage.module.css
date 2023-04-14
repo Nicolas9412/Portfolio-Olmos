@@ -4,6 +4,21 @@
   z-index: 0;
 }
 
+@media (min-width: 996px) and (max-width: 1199px) {
+  .profilePicture {
+    width: 246px;
+    height: 313.5px;
+  }
+}
+
+@media (max-width: 996px) {
+  .profilePicture {
+    order: 1;
+    width: 123px;
+    height: 157px;
+  }
+}
+
 @keyframes profileImage {
   from {
     border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;

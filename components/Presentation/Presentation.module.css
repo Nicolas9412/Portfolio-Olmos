@@ -61,6 +61,99 @@
   margin-left: 15px;
 }
 
+@media (min-width: 996px) and (max-width: 1199px) {
+  .container {
+    width: 600px;
+  }
+  .etiqueta {
+    font-size: 1.1em;
+  }
+  .p {
+    font-size: 3.5em;
+  }
+  .description {
+    width: 500px;
+    font-size: 1.35em;
+  }
+  .buttonpri {
+    font-size: 1.75em;
+  }
+  .buttonsec {
+    font-size: 1.75em;
+  }
+}
+
+@media (max-width: 995px) {
+  .container {
+    width: 100%;
+  }
+  .etiqueta {
+    font-size: 0.8em;
+  }
+  .p {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .description {
+    width: 300px;
+    font-size: 1em;
+  }
+  .buttonpri {
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  .buttonsec {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 995px) {
+  .etiqueta {
+    font-size: 1em;
+  }
+  .p {
+    margin-top: 10px;
+    font-size: 3em;
+  }
+  .description {
+    width: 500px;
+    font-size: 1.5em;
+  }
+  .buttonpri {
+    font-size: 1.5em;
+    padding: 10px 20px;
+  }
+  .buttonsec {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 996px) {
+  .container {
+    order: 2;
+    margin-top: 20px;
+    align-items: center;
+  }
+}
+
+.arrow1 {
+  display: inline-block;
+  animation: slide1 1s ease-in-out infinite;
+  margin-right: 10px;
+  font-style: normal;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
 @keyframes typing {
   from {
     width: 0;

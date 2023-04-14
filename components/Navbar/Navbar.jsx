@@ -29,35 +29,69 @@ function Navbar() {
       ref={header}
       className={`${styles.header} ${clicked ? styles.activeHeader : null}`}
     >
-      <Link href={"#"} className={`${styles.logo} ${monoton.className}`}>
+      <a
+        href={"/"}
+        className={`${styles.logo} ${monoton.className} ${
+          clicked ? styles.activeLogo : null
+        }`}
+      >
         Nicolás
-      </Link>
+      </a>
       <nav className={styles.nav}>
         <ul className={`${styles.links} ${clicked ? styles.active : null}`}>
           <li>
-            <Link href={"#"} className={styles.item}>
+            <a
+              href={"/#inicio"}
+              onClick={() => setClicked(false)}
+              className={styles.item}
+            >
               Inicio
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href={"#"} className={styles.item}>
+            <a
+              href={"/#perfil"}
+              onClick={() => setClicked(false)}
+              className={styles.item}
+            >
               Perfil
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href={"#"} className={styles.item}>
+            <a
+              href={"/#habilidades"}
+              onClick={() => setClicked(false)}
+              className={styles.item}
+            >
               Habilidades
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href={"#"} className={styles.item}>
+            <a
+              href={"#proyectos"}
+              onClick={() => setClicked(false)}
+              className={styles.item}
+            >
               Proyectos
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href={"#"} className={styles.item}>
+            <a
+              href={"#contacto"}
+              onClick={() => setClicked(false)}
+              className={styles.item}
+            >
               Contacto
-            </Link>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/files/CVNicolasOlmos.pdf"
+              onClick={() => setClicked(false)}
+              className={`${styles.cv} ${styles.item}`}
+            >
+              Ver CV
+            </a>
           </li>
         </ul>
       </nav>

@@ -1,0 +1,27 @@
+.title {
+  margin-top: 60px;
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 10px;
+}
+.underline {
+  content: "";
+  font-size: 2em;
+  margin: 0 auto;
+  height: 3px;
+  background: #e45a84;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  opacity: 0.8;
+}
+
+@media (max-width: 599px) {
+  .title {
+    font-size: 1.5em;
+  }
+}

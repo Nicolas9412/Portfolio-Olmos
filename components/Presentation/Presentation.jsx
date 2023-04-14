@@ -13,8 +13,14 @@ const Presentation = () => {
         Me dedico a realizar <b>aplicaciones web</b> para cubrir la necesidad
         que se te ocurra!
       </p>
-      <p className={styles.buttonsec}>→ Mirá mis proyectos</p>
-      <p className={styles.buttonpri}>Contáctame</p>
+      <a href="/#proyectos">
+        <p className={styles.buttonsec}>
+          <em className={styles.arrow1}>→</em> Mirá mis proyectos
+        </p>
+      </a>
+      <a href="/#contacto">
+        <p className={styles.buttonpri}>Contáctame</p>
+      </a>
     </div>
   );
 };

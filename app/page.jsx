@@ -2,11 +2,12 @@ import React from "react";
 import styles from "./Home.module.css";
 
 import { Presentation, PresentationImage } from "../components";
+import { Perfil, Habilidades, Proyectos, Contacto } from "./modules";
 
 const Page = () => {
   return (
     <>
-      <section className={styles.background}>
+      <section id="inicio" className={styles.background}>
         <span></span>
         <span></span>
         <span></span>
@@ -33,177 +34,10 @@ const Page = () => {
         </section>
       </section>
       <section className={styles.zona3}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, fugit
-        earum voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum vo consectetur adipisicing elit. Expedita, fugit
-        earum voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non del
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non del consectetur adipisicing
-        elit. Expedita, fugit earum voluptatum magni commodi debitis aspernatur
-        sequi magnam nulla laudantium non deleniti perferendis? Alias ullam
-        atque quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non del consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non del
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non del consectetur adipisicing
-        elit. Expedita, fugit earum voluptatum magni commodi debitis aspernatur
-        sequi magnam nulla laudantium non deleniti perferendis? Alias ullam
-        atque quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non del consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non del
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non del consectetur adipisicing
-        elit. Expedita, fugit earum voluptatum magni commodi debitis aspernatur
-        sequi magnam nulla laudantium non deleniti perferendis? Alias ullam
-        atque quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non del consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non del
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non delluptatum magni commodi
-        debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Expedita, fugit earum voluptatum magni
-        commodi debitis aspernatur sequi magnam nulla laudantium non deleniti
-        perferendis? Alias ullam atque quibusdam minus non quos?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Expedita, fugit earum
-        voluptatum magni commodi debitis aspernatur sequi magnam nulla
-        laudantium non deleniti perferendis? Alias ullam atque quibusdam minus
-        non quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita, fugit earum voluptatum magni commodi debitis aspernatur sequi
-        magnam nulla laudantium non deleniti perferendis? Alias ullam atque
-        quibusdam minus non quos?Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Expedita, fugit earum voluptatum magni commodi debitis
-        aspernatur sequi magnam nulla laudantium non deleniti perferendis? Alias
-        ullam atque quibusdam minus non quos?
+        <Perfil />
+        <Habilidades />
+        <Proyectos />
+        <Contacto />
       </section>
     </>
   );

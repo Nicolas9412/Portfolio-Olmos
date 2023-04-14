@@ -1,3 +1,9 @@
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as Presentation } from "./Presentation/Presentation";
 export { default as PresentationImage } from "./PresentationImage/PresentationImage";
+export { default as Title } from "./Title/Title";
+export { default as Tecnologies } from "./Tecnologies/Tecnologies";
+export { default as CardProyect } from "./CardProject/CardProyect";
+export { default as Input } from "./Input/Input";
+export { default as Textarea } from "./Textarea/Textarea";
+export { default as TabBar } from "./TabBar/TabBar";

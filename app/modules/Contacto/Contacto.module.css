@@ -1,0 +1,101 @@
+.screen {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.form {
+  width: 400px;
+}
+
+.formContactContainer {
+  min-width: 900px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.image {
+  border-radius: 20px 0 0 20px;
+  width: 600px;
+  height: 800px;
+  background-image: url("/bgContactForm.png");
+  background-size: cover;
+}
+
+.formContainer {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: start;
+}
+
+.btnSubmitContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.btnSubmit {
+  width: 100%;
+  background: rgb(228, 90, 132);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 90, 132, 1) 0%,
+    rgba(241, 169, 191, 1) 100%
+  );
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.37);
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+
+.error {
+  color: #c0535c;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 995px) {
+  .formContactContainer {
+    min-width: 500px;
+    padding: 30px;
+  }
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .formContactContainer {
+    min-width: 400px;
+    padding: 30px;
+  }
+  .form {
+    width: 300px;
+  }
+  .image {
+    display: none;
+  }
+}

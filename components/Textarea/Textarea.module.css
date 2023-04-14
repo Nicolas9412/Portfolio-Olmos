@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 300px;
+}
+
+.textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background-color: transparent;
+  border: 3px solid #a1a1a1;
+  resize: none;
+}
+
+.message {
+  margin: 5px 0;
+}
+.helperText {
+  font-size: 0.8em;
+  color: #c0535c;
+}
+
+.textarea:focus {
+  outline: none;
+}

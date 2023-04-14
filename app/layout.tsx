@@ -4,6 +4,7 @@ export const metadata = {
 };
 
 import Navbar from "../components/Navbar/Navbar";
+import { TabBar } from "@/components";
 import "../styles/globals.css";
 import { lato } from "../app/fonts";
 
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className={lato.className}>
         <Navbar></Navbar>
         {children}
+        <TabBar></TabBar>
       </body>
     </html>
   );

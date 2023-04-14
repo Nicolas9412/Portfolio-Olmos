@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100px;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  font-size: 1em;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #a1a1a1;
+}
+
+.message {
+  margin: 5px 0;
+}
+.helperText {
+  font-size: 0.8em;
+  color: #c0535c;
+}
+
+.input:focus {
+  outline: none;
+}

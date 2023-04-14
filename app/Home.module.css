@@ -9,18 +9,28 @@
   left: 0;
   overflow: hidden;
   background: #e3e3e3;
+  padding-bottom: 10vh;
 }
 .zona2 {
-  width: 80%;
-  padding: 0 10%;
+  width: 90%;
+  max-width: 1400px;
+  padding: 0 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.zona3 {
-  position: relative;
-  background-color: #e45a84;
+@media (min-width: 996px) and (max-width: 1199px) {
+  .zona2 {
+    width: 100%;
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 995px) {
+  .zona2 {
+    flex-direction: column;
+  }
 }
 
 @keyframes move {
