@@ -8,6 +8,18 @@ const Proyectos = () => {
       <Title title={"Mis Proyectos"} />
       <div className={styles.cardsContainer}>
         <CardProyect
+          image={"/messi-copa-del-mundo.gif"}
+          title={"Gif-Expert-App"}
+          linkPage={"https://gif-expert-olmos.netlify.app/"}
+          linkCode={"https://github.com/Nicolas9412/gif-expert-app"}
+        />
+        <CardProyect
+          image={"/superheroes.png"}
+          title={"Heroes-App"}
+          linkPage={"https://heroes-app-expert.netlify.app"}
+          linkCode={"https://github.com/Nicolas9412/heroes-app"}
+        />
+        <CardProyect
           image={"/ecommerce.webp"}
           title={"Ecommerce backend"}
           linkCode={"https://github.com/Nicolas9412/Coderhouse-Back-End-32080"}
