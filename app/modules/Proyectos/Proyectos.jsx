@@ -8,6 +8,12 @@ const Proyectos = () => {
       <Title title={"Mis Proyectos"} />
       <div className={styles.cardsContainer}>
         <CardProyect
+          image={"/journal.webp"}
+          title={"Journal-App"}
+          linkPage={"https://journal-app-indol.vercel.app/"}
+          linkCode={"https://github.com/Nicolas9412/journal-app"}
+        />
+        <CardProyect
           image={"/messi-copa-del-mundo.gif"}
           title={"Gif-Expert-App"}
           linkPage={"https://gif-expert-olmos.netlify.app/"}
